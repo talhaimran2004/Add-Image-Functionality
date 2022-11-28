@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Functionality</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <ul id="box" class="flex space-x-5 p-10 flex-wrap">
+            
+            <li class="w-36 pt-8">
+                <div class="image-upload flex flex-col items-center">
+                    <label for="file-input">
+                        <img src="add-icon.png" class="border-2 w-48" />
+                    </label>
+
+                    <input type="file" id="file-input" class="invisible" accept="image/jpeg, image/png, image/jpg">
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <script src="img.js"></script>
+</body>
+
+</html>
